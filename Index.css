@@ -1,0 +1,64 @@
+body {
+  background-color: #00727a; /* Black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+  background-color: #000000; /* Black background */
+  border: 4px solid #00ffff; /* Neon blue border */
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffff; /* Neon blue glow */
+  padding: 20px;
+}
+
+.display {
+  background-color: #000000; /* Black background */
+  color: #00ffff; /* Neon blue text */
+  border: 2px solid #00ffff; /* Neon blue border */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #00ffff; /* Dark gray for concrete */
+  color: #000000; /* White text */
+  border: 2px solid #333; /* Darker gray border */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Concrete texture */
+}
+
+button:hover {
+  background-color: #555; /* Slightly lighter gray on hover */
+}
+
+.operator {
+  background-color: #00ffff; /* Neon blue background */
+  color: #000; /* Black text */
+}
+
+.equals {
+  background-color: #00ff00; /* Neon green background */
+  color: #000; /* Black text */
+}
+
+.clear {
+  background-color: #ff00ff; /* Neon pink background */
+  color: #000; /* Black text */
+}
