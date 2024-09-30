@@ -1,0 +1,69 @@
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Nasir - Neon Portfolio</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+.container {
+            text-align: center;
+        }
+h1 {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            animation: neon 1.5s ease-in-out infinite alternate;
+        }
+.profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #00f;
+            animation: glow 1.5s ease-in-out infinite alternate;
+            object-fit: cover;
+        }
+ .details {
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+ @keyframes neon {
+            from {
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 75px #00f;
+            }
+to {
+    text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #00f, 0 0 17.5px #00f, 0 0 20px #00f, 0 0 25px #00f, 0 0 37.5px #00f;
+            }
+        }
+@keyframes glow {
+    from {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 75px #00f;
+            }
+ to {
+    box-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #00f, 0 0 17.5px #00f, 0 0 20px #00f, 0 0 25px #00f, 0 0 37.5px #00f;
+            }
+        }
+          </style>
+        </head>
+        <body>
+ <div class="container">
+ <h1>Hamza Nasir</h1>  
+<img src="https://media.licdn.com/dms/image/v2/D4D03AQGzXi7EqjlOgw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724866273689?e=2147483647&v=beta&t=gEnLRwQRdOgm2an9cnK4nC0rHIwQYmFq9MV8xwEyzLM" alt="Hamza Nasir" class="profile-pic">
+ <div class="details">
+ <p>Name: Hamza Nasir</p>
+ <p>University: National Textile University, Fsd.</p>
+<p>Country: Pakistan</p>
+ <p>Discipline: Computer Science</p>
+                </div>
+            </div>
+        </body>
+        </html>
